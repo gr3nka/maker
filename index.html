@@ -1,32 +1,210 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css?family=Cabin:400,500,600|PT+Sans:400,700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
-  <title>Maker</title>
-</head>
-<body>
-  <header>
-    <nav>
-      <a href="#" class="logo">Maker</a>
-      <ul class="nav-menu">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">The Team</a></li>
-        <li><a href="#">pricing</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </nav>
-    <div class="cta-info">
-      <h1>Lorem ipsum dollor sit amet<br> 
-        featured title here</h1>
-      <p>Mauris placerat eleifend leo. Quisque sit amet est et sapien<br>
-      Vestibulum erat wisi, condimentum sed, commodo vitae</p>
-      <a href="#" class="cta-button">Call to action</a>
-    </div>
-  </header>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Cabin:400,500,600|PT+Sans:400,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Maker</title>
+  </head>
+  <body>
+    <!-- header -------------------------------------------------------------------------------------->
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+          <div class="header__logo">
+            <a href="#" class="header__logo-link">Maker</a>
+          </div>
+          <nav class="nav">
+            <ul class="nav__list">
+              <li class="nav__list-menu">
+                <a class="nav__list-link" href="#">Home</a>
+              </li>
+              <li class="nav__list-menu">
+                <a class="nav__list-link" href="#">Services</a>
+              </li>
+              <li class="nav__list-menu">
+                <a class="nav__list-link" href="#">About</a>
+              </li>
+              <li class="nav__list-menu">
+                <a class="nav__list-link" href="#">The Team</a>
+              </li>
+              <li class="nav__list-menu">
+                <a class="nav__list-link" href="#">pricing</a>
+              </li>
+              <li class="nav__list-menu">
+                <a class="nav__list-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <!-- intro -------------------------------------------------------------------------------------->
+    <section class="intro">
+      <div class="container">
+        <h1 class="intro__title">
+          Lorem ipsum dollor sit amet<br />
+          featured title here
+        </h1>
+        <p class="intro__text">
+          Mauris placerat eleifend leo. Quisque sit amet est et sapien<br />
+          Vestibulum erat wisi, condimentum sed, commodo vitae
+        </p>
+        <a href="#" class="intro__btn">Call to action</a>
+      </div>
+    </section>
+
+    <!-- main ---------------------------------------------------------------------------------------->
+    <main>
+      <div class="container">
+        <!-- service features ---------------------------------------------------------------------------------------->
+        <section class="service">
+          <h2 class="service__title">We provide great services</h2>
+          <p class="service__text">
+            Lorem ipsum dollor sit amet donec eu libero sit amet quam<br />
+            pallentesque voluptat, nam dui mi
+          </p>
+          <div class="features">
+            <div class="features__item">
+              <a href="#">
+                <img
+                  src="img/icons/VectorSmart Object.png"
+                  alt="icon"
+                  class="feautures__icon"
+                />
+              </a>
+              <h3 class="features__item-title">Web design</h3>
+              <p class="features__item-text">
+                Vestibulum erat wisi, condimentum commodo vitae, ornare sit ame
+              </p>
+            </div>
+            <div class="features__item">
+              <a href="#">
+                <img
+                  src="img/icons/VectorSmart Object1.png"
+                  alt="icon"
+                  class="feautures__icon"
+                />
+              </a>
+              <h3 class="features__item-title">Identity & Branding</h3>
+              <p class="features__item-text">
+                Odio nisi, euismod in, pharetra a, ltricies in, diam. Sed arcu
+              </p>
+            </div>
+            <div class="features__item">
+              <a href="#">
+                <img
+                  src="img/icons/VectorSmart Object2.png"
+                  alt="icon"
+                  class="feautures__icon"
+                />
+              </a>
+              <h3 class="features__item-title">Print & packaging</h3>
+              <p class="features__item-text">
+                Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan
+                porttito
+              </p>
+            </div>
+            <div class="features__item">
+              <a href="#">
+                <img
+                  src="img/icons/VectorSmart Object3.png"
+                  alt="icon"
+                  class="feautures__icon"
+                />
+              </a>
+              <h3 class="features__item-title">Content writing</h3>
+              <p class="features__item-text">
+                Aliquam erat volutpat. Nam dui tincidunt quis, accumsan porttito
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <!-- staff info ---------------------------------------------------------------------------------------->
+        <section class="staff">
+          <div class="staff__info">
+            <h3 class="staff__info-name">Johnatan Doe</h3>
+            <p class="staff__info-position">Marketing Specialist</p>
+            <p class="staff_info-about">
+              Lorem ipsum dollor sit amet donec eu libero sit amet quam egestas
+              semper, aenean ultricies duis,praesent dapibus, neque id cursus
+              faucibus, tortor neque egestas augue, eu vulputate magna eros eu.
+            </p>
+            <p class="staff_info-about">
+              Aliquam erat volutpat. Nam dui mi, tincidunt quis, accums
+              porttitor, facilisis luctus, metus phasellus ultrices null.
+            </p>
+            <a class="staff__btn" href="#">
+              <span>More</span>
+              <img
+                src="img/icons/Forma 1.png"
+                alt="more"
+                class="staff__btn-icon"
+              />
+            </a>
+          </div>
+          <div class="staff__photo">
+            <a class="staff_photo-link" href="#">
+              <img
+                src="img/photo1.jpg"
+                alt="staff-photo"
+                class="staff__photo1"
+              />
+            </a>
+            <a class="staff_photo-link" href="#">
+              <img
+                src="img/photo2.jpg"
+                alt="staff-photo"
+                class="staff__photo1"
+              />
+            </a>
+            <a class="staff_photo-link" href="#">
+              <img
+                src="img/photo3.jpg"
+                alt="staff-photo"
+                class="staff__photo1"
+              />
+            </a>
+            <a class="staff_photo-link" href="#">
+              <img
+                src="img/photo4.jpg"
+                alt="staff-photo"
+                class="staff__photo1"
+              />
+            </a>
+          </div>
+        </section>
+      </div>
+
+      <!-- our office ---------------------------------------------------------------------------------------->
+      <section class="office">
+        <h3 class="office__title">
+          Our office, the place where we put together ideas
+        </h3>
+        <p class="office__info">
+          Lorem ipsum dollor sit amet donec eu libero sit amet<br />quam egestas
+          semper, aenean ultricies duis.
+        </p>
+        <div class="office__shape">
+          <div class="img-container">
+            <div class="img-container2">
+              <img
+                src="img/icons/y.png"
+                alt="triangle"
+                class="office__triangle"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="asd"></div>
+    </main>
+  </body>
 </html>

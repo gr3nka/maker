@@ -332,7 +332,7 @@ font-family: 'Cabin', sans-serif;*/
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-/* staff =================================================*/
+/* office =================================================*/
 .office {
   background: #cfbbba url(../img/office.jpg) top center no-repeat;
   background-size: cover;
@@ -381,4 +381,243 @@ font-family: 'Cabin', sans-serif;*/
   padding-left: 5px;
   border: 5px solid #8a9aa7;
   border-radius: 50%;
+}
+
+/* about =================================================*/
+.about {
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+.about__title {
+  font-family: "Cabin", sans-serif;
+  font-size: 34.98px;
+  color: #3c4458;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.about__text {
+  font-family: "PT Sans", sans-serif;
+  font-size: 19.99px;
+  color: #718493;
+  margin-bottom: 110px;
+  text-align: center;
+}
+
+.about__items {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.about__items-int {
+  text-align: center;
+  width: 33.33333%;
+  margin-bottom: 55px;
+}
+
+.about__items-int img {
+  margin-bottom: 30px;
+}
+
+.about__items-int h4 {
+  font-family: "Cabin", sans-serif;
+  font-size: 19.99px;
+  font-weight: 600;
+  color: #3c4458;
+  margin-bottom: 30px;
+}
+
+.about__items-text {
+  font-family: "PT Sans", sans-serif;
+  font-size: 16.99px;
+  color: #718493;
+}
+
+/* treehouse =================================================*/
+.treehouse {
+  background: url(../img/bg2.jpg) top center no-repeat;
+  height: 405px;
+  background-size: cover;
+  text-align: center;
+}
+
+.treehouse img {
+  margin-top: 100px;
+  margin-bottom: 35px;
+}
+
+.treehouse__quote {
+  font-family: "Cabin", sans-serif;
+  font-size: 35px;
+  font-weight: 500;
+  color: #3c4458;
+  margin-bottom: 35px;
+}
+
+.treehouse__name {
+  font-family: "PT Sans", sans-serif;
+  font-size: 17px;
+  color: #718493;
+}
+
+/* download =================================================*/
+.download {
+  font-family: "Cabin", sans-serif;
+  font-size: 35.02px;
+  font-weight: 500;
+  color: #3c4458;
+  text-align: center;
+  margin-top: 150px;
+  margin-bottom: 35px;
+}
+
+.download__btn {
+  display: table;
+  margin: 0 auto;
+  font-family: "PT Sans", sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  border: none;
+  background-color: #bcccd9;
+  padding: 20px 40px;
+  border-radius: 24px;
+  transition: all 0.13s ease-in-out;
+  cursor: pointer;
+  margin-bottom: 150px;
+}
+
+.download__btn:hover {
+  background-color: #6a859b;
+}
+
+/* footer =================================================*/
+.footer {
+  background-color: #2c353d;
+  height: 750px;
+}
+
+.prices {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #39434c;
+}
+
+.prices__col {
+  padding-top: 125px;
+  padding-bottom: 125px;
+}
+
+.prices__col h4 {
+  font-family: "PT Sans", sans-serif;
+  font-size: 12.98px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #718493;
+  letter-spacing: 3px;
+  margin-bottom: 35px;
+}
+
+.prices__col-price {
+  font-family: "Cabin", sans-serif;
+}
+
+.prices__col-dol {
+  font-size: 24.97px;
+  font-weight: 500;
+  color: #505f6a;
+  position: relative;
+  top: -39.955px;
+}
+
+.prices__col-number {
+  font-size: 79.91px;
+  color: #fff;
+}
+
+.prices__col-mo {
+  font-size: 24.97px;
+  font-weight: 500;
+  color: #505f6a;
+}
+
+.prices__white {
+  font-family: "PT Sans", sans-serif;
+  font-size: 17px;
+  color: #718493;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.prices__white span {
+  color: #fff;
+}
+
+.prices__btn {
+  display: table;
+  font-family: "PT Sans", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  border: none;
+  background-color: #434c54;
+  padding: 15px 35px;
+  border-radius: 24px;
+  transition: all 0.13s ease-in-out;
+  cursor: pointer;
+  margin-top: 35px;
+  letter-spacing: 2px;
+}
+
+.prices__btn:hover {
+  background-color: #596168;
+}
+
+/* footer__section =================================================*/
+.footer__section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 65px;
+}
+
+.footer__nav ul {
+  display: flex;
+}
+
+.footer__nav a {
+  font-family: "PT Sans", sans-serif;
+  font-size: 17px;
+  color: #6d808e;
+  padding-right: 40px;
+  text-decoration: none;
+  transition: all 0.13s ease-in-out;
+}
+
+.footer__nav a:hover {
+  color: #fff;
+}
+
+.social a {
+  text-decoration: none;
+}
+
+.social img {
+  padding-left: 35px;
+  opacity: 0.4;
+  transition: all 0.13s ease-in-out;
+}
+
+.social img:hover {
+  opacity: 1;
+}
+
+.footer__section p {
+  font-family: "PT Sans", sans-serif;
+  font-size: 17px;
+  color: #6d808e;
+  padding-top: 30px;
 }

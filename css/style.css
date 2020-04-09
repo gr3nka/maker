@@ -95,7 +95,7 @@ font-family: 'Cabin', sans-serif;*/
   margin: 0 auto;
 }
 
-/* header =================================================*/
+/* header */
 .header__inner {
   display: flex;
   justify-content: space-between;
@@ -110,7 +110,7 @@ font-family: 'Cabin', sans-serif;*/
   text-decoration: none;
 }
 
-/* nav =================================================*/
+/* nav */
 .nav {
   text-decoration: none;
 }
@@ -137,7 +137,7 @@ font-family: 'Cabin', sans-serif;*/
   border-bottom: 3px solid #3c4357;
 }
 
-/* intro =================================================*/
+/* intro */
 .intro {
   display: flex;
   flex-direction: column;
@@ -165,7 +165,7 @@ font-family: 'Cabin', sans-serif;*/
 .intro__btn {
   text-decoration: none;
   font-family: "PT Sans", sans-serif;
-  font-style: 15px;
+  font-size: 15px;
   text-transform: uppercase;
   font-weight: bold;
   color: #fff;
@@ -180,7 +180,7 @@ font-family: 'Cabin', sans-serif;*/
   background-color: #6a859b;
 }
 
-/* service features =================================================*/
+/* service features */
 .service {
   margin: 150px 0;
   text-align: center;
@@ -242,7 +242,7 @@ font-family: 'Cabin', sans-serif;*/
   line-height: 1.5;
 }
 
-/* staff =================================================*/
+/* staff */
 .staff {
   display: flex;
   flex-direction: row;
@@ -332,7 +332,7 @@ font-family: 'Cabin', sans-serif;*/
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-/* office =================================================*/
+/* office */
 .office {
   background: #cfbbba url(../img/office.jpg) top center no-repeat;
   background-size: cover;
@@ -383,7 +383,7 @@ font-family: 'Cabin', sans-serif;*/
   border-radius: 50%;
 }
 
-/* about =================================================*/
+/* about */
 .about {
   margin-top: 150px;
   margin-bottom: 150px;
@@ -434,7 +434,7 @@ font-family: 'Cabin', sans-serif;*/
   color: #718493;
 }
 
-/* treehouse =================================================*/
+/* treehouse */
 .treehouse {
   background: url(../img/bg2.jpg) top center no-repeat;
   height: 405px;
@@ -461,7 +461,7 @@ font-family: 'Cabin', sans-serif;*/
   color: #718493;
 }
 
-/* download =================================================*/
+/* download */
 .download {
   font-family: "Cabin", sans-serif;
   font-size: 35.02px;
@@ -493,7 +493,7 @@ font-family: 'Cabin', sans-serif;*/
   background-color: #6a859b;
 }
 
-/* footer =================================================*/
+/* footer */
 .footer {
   background-color: #2c353d;
   height: 750px;
@@ -576,7 +576,7 @@ font-family: 'Cabin', sans-serif;*/
   background-color: #596168;
 }
 
-/* footer__section =================================================*/
+/* footer__section */
 .footer__section {
   display: flex;
   flex-wrap: wrap;
